@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment form</title>
+    <title>Payment Form</title>
 
 </head>
-<body>
 <form action="">
-    <h1> Payment form</h1>
-    <h2> Contact information</h2>
-    <P> Name: *<input type="text" name="name" required> </P>
-    <legend>
-        <h3>Gender</h3></legend>
-    <P> Male:<input type="radio" name="Gender" id="Male">
-        Female:<input type="radio" name="Gender" id="Female">
-    </P>
-    <p> Address: <textarea name="Address" id="address" cols="100" rows="9"></textarea></p>
-    <P> Email: *<input type="email" name="email" id="email" required>
-        <P> Pincode: *<input type="pincode" name="pincode" id="pincode" required></P>
-    </P>
-    <h2> Payment Info</h2>
-    <p> Card Type: 
-        <select name="card_type" id="card_type">
-        <option value="" >--Select Card Type--</option>
-        <option value="Visa" >visa</option>
-        <option value="Rupey" >Rupey</option>
-        <option value="Master Card" >master card</option>
-    </select>
-    </p>
-    <p> Card Number: *<input type="number" name="Card number" id="Card number" required></p>
-    <p> Expiry Date: *<input type="date" name="Exp_date" id="Exp_date" required></p>
-    <p> Cvv: *<input type="Password" name="Cvv" id="Cvv" required></p>
-    <input type="submit" value="Pay now">
-</form>
-
-
+<body>
     
+    <h1> Payment Form</h1>
+    <p> Required fields are follwed by * </p>
+    <p> Name:* <input type="text" name="name" id="name" required></p>
+    <legend1>
+        <h3>Gender</h3>
+    </legend1>
+    <p> Male: <input type="radio" name="gender" id="gender">
+        Female: <input type="radio" name="gender" id="gender">
+    </p>
+    <p>Email:* <input type="email" name="email" id="email" required></p>
+    <P> Address:* <textarea name="address" id="address" required></textarea></P>
+    <P> Pincode:* <input type="number" name="pincode" id="pincode" required></P>
+    <h2>Payment Information</h2>
+    <p> Card Type
+    <select name="card type" id="card type">
+        <option value="">Select a Card Type</option>
+        <option value="visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+        <option value="MasterCard">MastrCard</option>
+        </select>
+    </p>
+    <P> Card Number:* <input type="number" name="card number" id="card number" required></P>
+    <p> Expiry date:* <input type="date" name="expiry date" id="expiry date" required></p>
+    <p> Cvv:* <input type="password" name="cvv" id="cvv" required></p>
+    <input type="submit" value="Pay Now">
+    </select>
+
 </body>
+</form> 
 </html>
